@@ -24,13 +24,13 @@ ULTRASONIC: Ultrasonic sensor driver.
 ## Application Layer:
 
 ### 01-7Segment
-This project prints from 0 to 9 on 7Segment and does that forever. 
+This project prints from 0 to 9 on 7Segment and does that forever.      
 [Watch the video](https://drive.google.com/file/d/1hDn8wlbTfSS8ist9v0QXSvrNVePE9mwb/view?usp=drive_link).
 
 ### 02-LedAnimation
 Led Animations:
-This project play Animation on 8 led on kit in this pattern, and redo this for ever.    
-1- Shift left/right (ping-pong) led to led --> 200 ms, 4 times.
-2- In/out (Fat7y yawarda) led ot led --> 200 ms, 4 times.
-3- Flashing flash every --> 500 ms, 4 times. 
-[Watch the video](https://drive.google.com/file/d/1hDn8wlbTfSS8ist9v0QXSvrNVePE9mwb/view?usp=drive_link).
+This project play Animation on 8 led on kit in this pattern, and redo this for ever.      
+1- Shift left/right (ping-pong) led to led --> 200 ms, 4 times.     
+2- In/out (Fat7y yawarda) led ot led --> 200 ms, 4 times.      
+3- Flashing flash every --> 500 ms, 4 times.        
+[Watch the video](https://drive.google.com/file/d/1hDn8wlbTfSS8ist9v0QXSvrNVePE9mwb/view?usp=drive_link).   
