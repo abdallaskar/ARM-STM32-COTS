@@ -1,14 +1,14 @@
 /*******************************************************************/
-/* Author     : Abdalla Skar    								   */
-/* Data		  : 24 July 2023									   */
-/* Version    : 1.0 V											   */
-/* Description: Led Animations  								   */
+/* Author     : Abdalla Skar    				   */
+/* Data		  : 24 July 2023				   */
+/* Version    : 1.0 V						   */
+/* Description: Led Animations  				   */
 /*******************************************************************/
 /*******************************************************************/
-/* Description : Led Animations  								   */
+/* Description : Led Animations  				   */
 /* 1- Shift left/right (ping-pong) led to led --> 200 ms, 4 times  */
-/* 2- In/out (Fat7y yawarda) led ot led --> 200 ms, 4 times	       */
-/* 3- Flashing flash every -- > 500 ms , 8 times 	               */
+/* 2- In/out (Fat7y yawarda) led ot led --> 200 ms, 4 times	   */
+/* 3- Flashing flash every -- > 500 ms , 8 times 	           */
 /*******************************************************************/
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
