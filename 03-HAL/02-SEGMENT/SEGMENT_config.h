@@ -21,6 +21,16 @@
 			SECOND_HALF
 						*/
 #define SEGMENT_HALF    FIRST_HALF
+/* A0 --> A
+ * A1 --> B
+ * A2 --> C
+ * A3 --> D
+ * A4 --> E
+ * A6 --> F
+ * A6 --> G
+ * A7 --> DOT
+ */
+
 
 /* Select Type 
 	Options :

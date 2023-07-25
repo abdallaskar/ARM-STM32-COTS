@@ -1,0 +1,6 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:NVIC.elf,org.eclipse.launchbar.core.descriptorType.default\:NVIC Debug,org.eclipse.launchbar.core.descriptorType.default\:02-LedAnimation Debug,org.eclipse.launchbar.core.descriptorType.default\:01-7Segment Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:NVIC\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:NVIC\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

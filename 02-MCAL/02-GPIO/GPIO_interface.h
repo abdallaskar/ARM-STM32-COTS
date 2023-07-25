@@ -19,6 +19,8 @@ void GPIO_voidSetPortValue(u8 copy_u8Port,u16 copy_u8Value);
 // Lock pin direaction and configurations 
 void GPIO_voidLockPin(u8 copy_u8Port ,u8 copy_u8Pin);
 
+// Toggle pin value
+void GPIO_voidTogglePinValue(u8 copy_u8Port ,u8 copy_u8Pin);
 
 
 

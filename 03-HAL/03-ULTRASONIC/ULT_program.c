@@ -28,5 +28,4 @@ u16 ULTRASONIC_u16GetDistance(void)
 	_delayms(0.000002);
 	
 	
-	
 }

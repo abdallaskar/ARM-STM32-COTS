@@ -115,6 +115,61 @@ u8   GPIO_u8GetPinValue       (u8 copy_u8Port ,u8 copy_u8Pin)
 	}
 	return local_u8Value;
 }
+// Toggle pin value
+
+void GPIO_voidTogglePinValue(u8 copy_u8Port ,u8 copy_u8Pin)
+{
+	u8 local_u8Value = 0;    // variable to return value
+	switch(copy_u8Port)
+	{
+		case PORTA:
+			if(copy_u8Pin < 16){
+				local_u8Value = GET_BIT(GPIOA_IDR,copy_u8Pin); //Get bin value
+			}
+		break;
+		case PORTB:
+			if(copy_u8Pin < 16){
+				local_u8Value = GET_BIT(GPIOB_IDR,copy_u8Pin); //Get bin value
+			}
+		break;
+		case PORTC:
+			if(copy_u8Pin < 16){
+				local_u8Value = GET_BIT(GPIOC_IDR,copy_u8Pin); //Get bin value
+			}
+
+		break;
+		default:break;
+	}
+
+	switch(copy_u8Port)
+	{
+		case PORTA:
+			if(local_u8Value == 	LOW){
+				SET_BIT(GPIOA_ODR,copy_u8Pin); // Set bit in register ODR
+			}else if(local_u8Value == 	HIGH){
+				CLR_BIT(GPIOA_ODR,copy_u8Pin); // Clear bit in register ODR
+			}
+		break;
+		case PORTB:
+			if(local_u8Value == LOW){
+				SET_BIT(GPIOB_ODR,copy_u8Pin);// Set bit in register ODR
+			}else if(local_u8Value == HIGH){
+				CLR_BIT(GPIOB_ODR,copy_u8Pin); // Clear bit in register ODR
+			}
+		break;
+		case PORTC:
+			if(local_u8Value == 	LOW){
+				SET_BIT(GPIOC_ODR,copy_u8Pin); // Set bit in register ODR
+			}else if(local_u8Value == 	HIGH){
+				CLR_BIT(GPIOC_ODR,copy_u8Pin); // Clear bit in register ODR
+			}
+
+		break;
+
+		default: break;
+	}
+
+}
 
 // Set port value
 void GPIO_voidSetPortValue(u8 copy_u8Port,u16 copy_u8Value)
@@ -138,20 +193,22 @@ void GPIO_voidSetPortValue(u8 copy_u8Port,u16 copy_u8Value)
 		
 		default: break;
 	}
+}
 // Lock pin direaction and configurations 
 void GPIO_voidLockPin(u8 copy_u8Port ,u8 copy_u8Pin)
 {
 	switch(copy_u8Port){
 		case PORTA :
-			LCKGPIOA_LCKR = (1 << copy_u8Pin );
+			GPIOA_LCKR = (1 << copy_u8Pin );
 		break;
 		case PORTB :
-			LCKGPIOB_LCKR = (1 << copy_u8Pin );
+			GPIOB_LCKR = (1 << copy_u8Pin );
 		break;
 		case PORTC :
-			LCKGPIOC_LCKR = (1 << copy_u8Pin );
+			GPIOC_LCKR = (1 << copy_u8Pin );
 		break;
-		default :break;
+		default :
+			break;
 		
 	}
 }
