@@ -1,4 +1,4 @@
-# ARM-STM32-Microcontroller-Drivers-and-Applications
+# ARM-STM32-COTS
 This repository contains MCAL drivers, HAL drivers, application layer, and libraries for ARM microcontroller STM32.  
 
 ## Libraries:
