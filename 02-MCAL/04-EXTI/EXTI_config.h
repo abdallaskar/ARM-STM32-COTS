@@ -1,5 +1,5 @@
 /*******************************************************************/
-/* Author      : Abdalla Mahmoud 								   */
+/* Author      : Abdalla Skar   								   */
 /* Data		   : 29 JAN 2023									   */
 /* Verstion    : 1.0 V	 										   */
 /* Description : EXTI										       */
@@ -22,7 +22,8 @@
 			 RISING 
 			 ENY_CHANGE
 						*/
-#define   EXTI_MODE   FALLING  
+#define   EXTI_SENSE_MODE   FALLING
+
 
 
 
