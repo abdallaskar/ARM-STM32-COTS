@@ -1,0 +1,23 @@
+/*******************************************************************/
+/* Author      : Abdalla Skar 								       */
+/* Data		   : 3 August 2023						 			   */
+/* Version    : 1.0 V	 										   */
+/* Description : LEDMATRIX									       */
+/*******************************************************************/
+#ifndef LEDMATRIX_PRIVATE_H
+#define LEDMATRIX_PRIVATE_H
+
+
+
+
+static void SetROWValues(u8 Copy_u8value);
+static void DisapleAllCoulms(void);
+
+
+
+
+
+
+
+
+#endif

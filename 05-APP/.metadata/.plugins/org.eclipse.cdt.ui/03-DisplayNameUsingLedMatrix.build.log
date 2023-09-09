@@ -1,0 +1,11 @@
+23:23:13 **** Incremental Build of configuration Debug for project 03-DisplayNameUsingLedMatrix ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "03-DisplayNameUsingLedMatrix.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2610	     76	    280	   2966	    b96	03-DisplayNameUsingLedMatrix.elf
+Finished building: 03-DisplayNameUsingLedMatrix.siz
+ 
+
+23:23:14 Build Finished (took 403ms)
+

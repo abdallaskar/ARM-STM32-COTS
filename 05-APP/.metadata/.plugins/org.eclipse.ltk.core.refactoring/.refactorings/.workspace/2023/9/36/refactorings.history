@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ToggleLedsUsing_OS&apos; to &apos;04-ToggleLedsUsing_OS&apos;" description="Rename resource &apos;ToggleLedsUsing_OS&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ToggleLedsUsing_OS" name="04-ToggleLedsUsing_OS" stamp="1694294507818" updateReferences="true"/>&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/04-ToggleLedsUsing_OS/src/_write.c" element2="/04-ToggleLedsUsing_OS/src/main.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1694294520551"/>
+</session>

@@ -1,0 +1,11 @@
+23:24:16 **** Incremental Build of configuration Debug for project 04-ToggleLedsUsing_OS ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "04-ToggleLedsUsing_OS.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2384	     76	    328	   2788	    ae4	04-ToggleLedsUsing_OS.elf
+Finished building: 04-ToggleLedsUsing_OS.siz
+ 
+
+23:24:16 Build Finished (took 253ms)
+
