@@ -1,0 +1,11 @@
+14:59:30 **** Incremental Build of configuration Debug for project 05-AudioSystemUsingDAC ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "05-AudioSystemUsingDAC.elf"
+   text	   data	    bss	    dec	    hex	filename
+  37798	     84	    288	  38170	   951a	05-AudioSystemUsingDAC.elf
+Finished building: 05-AudioSystemUsingDAC.siz
+ 
+
+14:59:30 Build Finished (took 312ms)
+
