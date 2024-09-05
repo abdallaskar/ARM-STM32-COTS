@@ -56,4 +56,4 @@ This new application demonstrates how to toggle LEDs using the included operatin
 
 This new application showcases audio playback functionality. It takes a digital audio signal, converts it to analog using the DAC driver, and plays it through an audio output. This project demonstrates how to use the DAC in a real-time audio system.
 
-[Watch the video](https://drive.google.com/file/d/1ske7qNZHNc63afRzJKDt6XhiAlfAFuqf/view?usp=sharing).  
+[Watch the video](https://drive.google.com/file/d/17Elrg1hPa41biPqtOkyCUvUfqBGC392X/view?usp=drive_linkg).  
